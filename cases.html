@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<title>web-designer</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/png"/>
+    <link rel="apple-touch-icon" href="favicon.ico" type="image/png"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/visuallightbox.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/visuallightbox.js"></script>
+</head>
+<body>
+    <div id="header">
+    	<div id="header-content">
+        	<div id="logo">
+            	<a href="">尚网络科技工作室</a>
+            </div>
+            <div id="menu">
+            	<ul>
+                	<li><a href="index.html">首页</a></li>
+                    <li><a class="on" href="cases.html">案例展示</a></li>
+                    <li><a href="">价格询问</a></li>
+                    <li><a href="">联系方式</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+    	<div class="content" id="cases">
+        	<div class="cases">
+        	<div class="case">
+            	<div><img class="img" href="images/1.jpg" src="images/1.jpg"/></div>
+                <div class="desc"></div>
+            </div>
+            <div class="case">
+            	<div><img class="img" href="images/2.jpg" src="images/2.jpg"/></div>
+                <div class="desc"></div>
+            </div>
+            <div class="case">
+            	<div><img class="img" href="images/3.jpg" src="images/3.jpg"/></div>
+                <div class="desc"></div>
+            </div>
+            <br clear="all"/>
+            </div>
+            <div class="cases">
+            <div class="case">
+            	<div><img class="img" href="images/4.jpg" src="images/4.jpg"/></div>
+                <div class="desc"></div>
+            </div>
+            <div class="case">
+            	<div><img class="img" href="images/5.jpg" src="images/5.jpg"/></div>
+                <div class="desc"></div>
+            </div>
+            <div class="case">
+            	<div><img class="img" href="images/6.jpg" src="images/6.jpg"/></div>
+                <div class="desc"></div>
+            </div>
+            <br clear="all"/>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    	//new jQuery().visualLightbox({classNames: 'img'});
+		window.Lightbox = new jQuery().visualLightbox({autoPlay:true,borderSize:57,classNames:'img',closeLocation:'top',descSliding:true,enableRightClick:false,enableSlideshow:true,resizeSpeed:7,slideTime:4,startZoom:true});
+    });
+	</script>
+    <div id="footer">
+    	<ul id="footer-content">
+        	<li>
+            	<span class="font_1">案例展示</span>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div>
+                	<div class="gallery_1">
+                    	<a href=""><img src="images/demo1.jpg"/></a>
+                        <a href=""><img src="images/demo1.jpg"/></a>
+                        <a href=""><img src="images/demo1.jpg"/></a>
+                        <a href=""><img src="images/demo1.jpg"/></a>
+                        <a href=""><img src="images/demo1.jpg"/></a>
+                        <a href=""><img src="images/demo1.jpg"/></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+            	<span class="font_1">团队介绍</span>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div>
+                	<p>团队介绍团队介绍团队介绍团队介绍团队介绍团队介绍团队介绍团队介绍团队介绍团队介绍团队介绍团队介绍团队介绍团队介团队介绍团队介绍团队介绍团队介绍绍团队介绍团队介绍</p>
+                </div>
+            </li>
+            <li>
+            	<span class="font_1">业务范围</span>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div>
+                	<p>业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围业务范围</p>
+                </div>
+            </li>
+            <li>
+            	<span class="font_1">联系方式</span>
+                <div class="line_1"></div>
+                <div class="line_2"></div>
+                <div>
+                	<div class="gallery_1">
+                    	电话：xxxxxxxxxx<br/>
+                        邮箱：xxxx@qq.com<br/>
+                        QQ：xxxxxxx
+                    </div>
+                </div>
+            </li>
+            <br clear="all"/>
+        </ul>
+    </div>
+    <div id="cpright">
+    	<div id="cpcontent">© 2023 by Song. Proudly created with shangtech.net</div>
+    </div>
+</body>
+</html>
